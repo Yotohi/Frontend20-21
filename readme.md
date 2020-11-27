@@ -38,8 +38,10 @@ Navigatie
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
-
--dit ging goed & dit was lastig-
+Ik vind zelf dat ik nog niet goed op weg ben. Maar dat komt helemaal goed, op stage is het iets minder druk geworden waardoor ik wat meer tijd heb gekregen. En daarnaast was ik ook nog druk bezig met het regelen voor een afstudeerproject en dit heeft ook vorm gekregen dus dat levert mij ook weer meer tijd en rust op om hieraan te gaan werken.
+Heb vooral nog moeite met het toepassen van flexbox bij mijn menu.
+Qua css heb ik nog niet veel kunnen doen.
+Ik ben zelf eerst de basis goed aan het leggen zodat ik straks alles kan invullen met content. Dit is naar mijn mening een makkelijker manier van werken die het minste tijd in beslag neemt.
 
 **Screenshot(s):**
 
