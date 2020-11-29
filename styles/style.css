@@ -17,6 +17,7 @@ header a{
 
 header nav{
   flex-grow: 1;
+
   
 }
 header nav ul {    
@@ -39,7 +40,7 @@ header nav li + li {
 
 header nav a {
   color:white;
-  background-color:DarkSlateGray; 
+  background-color:#101c2d; 
   text-decoration:none;
   outline:none;
   
