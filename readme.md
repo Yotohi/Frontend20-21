@@ -8,7 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 Navigatie
 1. https://www.bobdewebbouwer.com/een-navigatie-menu-maken-met-html-en-css/
-2. -bron 2-
+2. https://www.w3schools.com/howto/howto_css_subnav.asp
 3. -...-
 
 
