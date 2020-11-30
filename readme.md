@@ -65,7 +65,7 @@ Ik ben zelf eerst de basis goed aan het leggen zodat ik straks alles kan invulle
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+<img scr="C:\Users\Yotohi\Documents\GitHub\Frontend20-21\images\Group 2.png">
 
 
 
