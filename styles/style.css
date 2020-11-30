@@ -7,50 +7,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 
-.navmenu a{
-display: flex;
-align-items: center;
-justify-content:center;
-color: #ffffff;
-background-color: #101c2d;
-height: 4em;
-font-family: "roboto" ;
-font-weight: bold;
-text-decoration: none;
-text-transform: uppercase;
-}
-
-.navmenu a:hover{
-  background:#030405;
-  color: white;
-}
-
-.navmenu ul{
-list-style:none ;
-display: flex;
-}
-
-.navmenu ul li{
-  position: relative;
-  width: 100%;
-  text-align: center;
-}
-.navmenu li:hover .dropdown li{
-  top:0;
-  display: block;
-}
-
-.dropdown ul li {
-  display: none;
-  position: relative;
-}
-
-.dropdown{
-  position: absolute;
-  display:flex;
-  flex-direction:column ;
-  width: 100%;
-}
 
 
 
