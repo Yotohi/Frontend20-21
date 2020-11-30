@@ -44,9 +44,12 @@ Qua css heb ik nog niet veel kunnen doen.
 Ik ben zelf eerst de basis goed aan het leggen zodat ik straks alles kan invullen met content. Dit is naar mijn mening een makkelijker manier van werken die het minste tijd in beslag neemt.
 
 **Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met korte uitleg-
-
+Footer, hier nog weinig aan gedaan, dan behalve er een list van gemaakt.
+<img scr="images\Screenshot_2.png"> 
+Nav, vooral hier nog mee bezig geweest met flexbox. Heb hier onwijs moeite mee heb ik gemerkt en wordt er snel gek van als iet sniet lukt.
+<img scr="images\Screenshot_1.png">
+Button om meer nieuws te laden
+<img scr="images\Screenshot_3.png">
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
