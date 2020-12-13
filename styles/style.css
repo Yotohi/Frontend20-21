@@ -42,27 +42,21 @@ header > a:focus {
 }
 header nav {
   background-color:rgba(0,0,0,.1);
-  
-  /* jouw code hier */
   flex-grow:1;
 }
 
 header nav ul {    
   margin:0; padding:0;
   list-style:none;
-  
-  /* jouw code hier */
   display:flex;
 }
 
 header nav li {
-  /* jouw code hier */
   min-width:6em;
   flex-grow:1;
 }
 
 header nav li + li {
-  /* jouw code hier */
   border-left:solid 1px transparent;
 }
 
@@ -80,47 +74,32 @@ header nav a {
 
 header nav a.active {
   font-weight:bold;
-  /* de cursor geen handje wordt als je over de active link hovert */
   cursor:default;
 }
 
 header nav a:hover:not(.active) {
-  /* als je over een link in het menu (maar niet de active link) hovert */
   color:DarkSlateGray;
   background-color:white;
 }
 
 header nav a:focus {
-  /* links in het menu wordt onderstreept als je er met het toetsenbord naar tabt */
   text-decoration:underline;
 }
-
-
-/******************/
-/* zoek-formulier */
-/******************/
 
 header form {
   padding:.75em;
   background-color:rgba(0,0,0,.2);
-  
-  /* jouw code hier */
-  flex-grow:5;
+  flex-grow:8;
   display:flex;
   justify-content:flex-end;
 }
 
 header form input { 
-  /* jouw code hier */
   flex-grow:1;  
 }
 
-/* styling van het zoekveld en de button */
-/* hoef je niets aan te veranderen */
-
 input, button {
   font-size:1em;
-  /* om de standaard style op bijv. iOS te voorkomen */
   -webkit-appearance:none;
   appearance:none;
   border:none;
@@ -142,6 +121,9 @@ header form button {
 
 
 
+button{
+  align-content: center;
+}
 
 p{
   font-family: "Roboto";
