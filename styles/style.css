@@ -148,6 +148,17 @@ footer{
   color: white;
   margin-bottom: 2em;
 }
+footer .footernav ul li ::before{
+  display: block;
+  width: 8px;
+  height: 12px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: '';
+  background-image: url(https://files.gpblog.com/images/gp/icons/min/list_item_arrow_red.svg);
+  background-repeat: no-repeat;
+}
 .footerimg{
   display: block;
   width: 100%;
