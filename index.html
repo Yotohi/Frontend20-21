@@ -8,59 +8,58 @@
 
 	<title>De snelste en meest complete F1 nieuwssite!</title>
 	<link href="styles/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 	<header>
 		<nav>
-			<ul>
-				<li><a href="#">Logo</a></li>
-				<li><a href="#">Mijn profiel</a></li>
-				<li><a href="#">Algmeneen nieuws</a></li>
-				<ul class="dropdown">
-					<li><a href="#">Max Verstappen</a></li>
-					<li><a href="#">Trending</a></li>
-					<li><a href="#">Meeste reacties</a></li>
-					<li><a href="#">Geruchten</a></li>
-				</ul>
+			<ul class="menu">
+				<li class="logo"><a href="#">Logo</a></li>
+				<li class="item"><a href="#">Mijn profiel</a></li>
+				<li>
+					<form>
+						<fieldset>
+							<input type="search">
+							<input type="submit">
+						</fieldset>
+					</form>
 				</li>
-				<li><a href="#">Teams</a></li>
-				<li><a href="#">Coureurs</a></li>
-				<li><a href="#">F1 Kalender</a></li>
-				<li><a href="#">Video's</a></li>
-				<li><a href="#">In Beeld</a></li>
-				<li><a href="#">F1 Live</a></li>
-				<li><a href="#">Dossier</a></li>
+				<li class="item"><a tabindex="0">Algmeneen nieuws</a>
+					<ul class="submenu">
+						<li class="subitem"><a href="#">Max Verstappen</a></li>
+						<li class="subitem"><a href="#">Trending</a></li>
+						<li class="subitem"><a href="#">Meeste reacties</a></li>
+						<li class="subitem"><a href="#">Geruchten</a></li>
+					</ul>
+				</li>
+				</li>
+				<li class="item"><a href="#">Teams</a></li>
+				<li class="item"><a href="#">Coureurs</a></li>
+				<li class="item"><a href="#">F1 Kalender</a></li>
+				<li class="item"><a href="#">Video's</a></li>
+				<li class="item"><a href="#">In Beeld</a></li>
+				<li class="item"><a href="#">F1 Live</a></li>
+				<li class="item"><a href="#">Dossier</a></li>
+				<li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
 			</ul>
 
-		</nav>
-		<form>
-			<fieldset>
-				<input type="search">
-				<input type="submit">
-			</fieldset>
-		</form>
-	</header>
 
+			
+		</nav>
+	</header>
 	<main>
 		<section class="slider">
-			<ul>
-				<li>
-					<article><a href="#"><img src="images/v2_featured_9c86696a6d0f886d853db965726f7a56a821fc5b.jpg" alt
-								title="'Boris Johnson mengt zich in de discussie of Hamilton geridderd moet worden'"></a>
-					</article>
-				</li>
-				<li>
-					<article><a href="#"><img src="images/v2_featured_a37131d8457369869fcdbee863f48e3de43726b2.jpg" alt
-								title="Horner:'Ik denk dat er bij Red Bull een andere sfeer hangt'"></a></article>
-				</li>
-				<li>
-					<article><a href="#"><img src="images/v2_featured_d2fbefbb9160c40b3a41c32b049e0016252b1f15.jpg" alt
-								title="'Twee alfamannetjes' zijn moeilijk bij Mercedes, maar Verstappen is geen optie"></a>
-					</article>
-				</li>
-			</ul>
+			<a href="#"><img class=slide_img src="images/v2_featured_9c86696a6d0f886d853db965726f7a56a821fc5b.jpg" alt
+						title="'Boris Johnson mengt zich in de discussie of Hamilton geridderd moet worden'"></a>
+				<a href="#"><img class=slide_img src="images/v2_featured_a37131d8457369869fcdbee863f48e3de43726b2.jpg" alt
+							title="Horner:'Ik denk dat er bij Red Bull een andere sfeer hangt'"></a>
+				<a href="#"><img class=slide_img src="images/v2_featured_d2fbefbb9160c40b3a41c32b049e0016252b1f15.jpg" alt
+							title="'Twee alfamannetjes' zijn moeilijk bij Mercedes, maar Verstappen is geen optie"></a>
+				
+
+
 		</section>
 		<aside>
 			<header>
@@ -71,30 +70,176 @@
 
 			<p>Tijden zijn Europese/Amsterdam tijdzone</p>
 		</aside>
-		<section class="artikelen">
+		<section class="artikelen1">
 			<article>
-				<img src="">
+				<img src="images/Artikelen/Klein/wc_4153c47952f7df18ac39af0c2fb9d1ba6fd3d6f3.jpg">
 				<p>
 					<h3>Binotto: 'Strijd om P3 bij constructeurs is nog niet voorbij'</h3>
 				</p>
+				<p class="datum">27-11-2020 14:42</p>
+				<button class="reaction"></button>
 			</article>
 			<article>
-				<img src="">
+				<img src="images/Artikelen/Klein/wc_e502b48b9996688196cd853d7fac3cb5c89526de.jpg">
 				<p>
-					<h3>Binotto: 'Strijd om P3 bij constructeurs is nog niet voorbij'</h3>
+					<h3>Trage SF1000 heeft Leclerc geholpen:'Het lijkt nu beter te gaan'</h3>
+				</p>
+				<p class="datum">27-11-2020 14:42</p>
+				<button class="reaction"></button>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_7da87ee5b387d720145175918212eaf701a87f8b.jpg">
+				<p>
+					<h3>Schumacher ondank lange break klaar voor titelstrijd:'Voor idereen hetzelfde'</h3>
+					<p class="datum">23-11-2020 14:45</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+		</section>
+		<section class="artikelen2">
+			<article>
+				<img src="images/Artikelen/Klein/wc_5f482939a587a29333b5516cc30597d35020ab62.jpg">
+				<p>
+					<h3>Ferrari heeft volgens Vettel veel meer problemen dan alleen de motor</h3>
+				</p>
+				<p class="datum">23-11-2020 14:24</p>
+				<button class="reaction"></button>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_c23e5f808a82887b1aba11938e675c2ef621d9c4.jpg">
+				<p>
+					<h3>McLaren jaagt nog altijd op meer: 'We weten hoe sterk zij zijn'</h3>
+				</p>
+				<p class="datum">23-11-2020 14:06</p>
+				<button class="reaction"></button>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_9c86696a6d0f886d853db965726f7a56a821fc5b.jpg">
+				<p>
+					<h3>'Boris Johnson mengt zich in de discussie of Hamilton geridderd moet worden'</h3>
+					<p class="datum">23-11-2020 13:39</p>
+					<button class="reaction"></button>
 				</p>
 			</article>
 			<article>
-				<img src="">
+				<img src="images/Artikelen/Klein/wc_9a5a0c6784404969c64d57f5cbf1a13e1e8f4fe5.jpg">
 				<p>
-					<h3>Binotto: 'Strijd om P3 bij constructeurs is nog niet voorbij'</h3>
-					<p class="datum">27-11-2020 14:42</p>
+					<h3>Hamilton denkt niet alleen aan racen: 'Probeer mijn kwetsbare kant te laten zien'</h3>
+					<p class="datum">23-11-2020 13:19</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_a37131d8457369869fcdbee863f48e3de43726b2.jpg">
+				<p>
+					<h3>Horner: 'Ik denk dat er bij Red Bull een andere sfeer hangt'</h3>
+					<p class="datum">23-11-2020 12:49</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_5971bb3f0b77009eb3c1fac591b23c8857ee1500.jpg">
+				<p>
+					<h3>Briatore: "Het contrast met de huidige generatie coureurs is erg groot"</h3>
+					<p class="datum">23-11-2020 12:18</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_b21de1df302e429cdf5d91dcc14c7f0bd86b6d0c.jpg">
+				<p>
+					<h3>Organisator Istanbul Park: 'We zijn bezig met voorbereidingen voor 2021'</h3>
+					<p class="datum">23-11-2020 11:46</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_0389e95007210dd912326cb3b0cb1544ed582cfb.jpg">
+				<p>
+					<h3>Coulthard vol lof: 'Niemand twijfelt er aan of hij een van de beste is'</h3>
+					<p class="datum">23-11-2020 11:14</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_1a50a411b49d1d9968f3019f5b30cb7181b43f36.jpg">
+				<p>
+					<h3>Hamilton blijft zichzelf verbeteren: "Dat kwam als een verrassing voor mij"</h3>
+					<p class="datum">23-11-2020 10:17</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_d2fbefbb9160c40b3a41c32b049e0016252b1f15.jpg">
+				<p>
+					<h3>'Twee alfamannetjes' zijn mogelijk bij Mercedes, maar Verstappen is geen optie</h3>
+					<p class="datum">23-11-2020 09:42</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_afcd891e5d4a981b857a13afbc121077b112e097.jpg">
+				<p>
+					<h3>Ricciardo: "Rosberg deed dat, maar voor meeste rijders zou dat moeilijk zijn"</h3>
+					<p class="datum">23-11-2020 09:21</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+		</section>
+		<figure>
+			<img src="" alt="">
+		</figure>
+		<section class="artikelen3">
+			<article>
+				<img src="images/Artikelen/Klein/wc_afd7dccd4adc01504a1e9f5426916f315a32f8ae.jpg">
+				<p>
+					<h3>'Hulkenberg en ik kwamen op het verkeerde moment de Formule 1 binnen'</h3>
+					<p class="datum">23-11-2020 08:52</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_07264e433576f0216a46d98fc00a96216456bad5.jpg">
+				<p>
+					<h3>Vettel kiest tussen Schumacher, Senna en Hamilton; wie is de beste ooit?</h3>
+					<p class="datum">23-11-2020 08:30</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_034c58a7906dcb1163003211e4e33180756b9307.jpg">
+				<p>
+					<h3>Rio de Janeiro geeft niet op; vijf nieuwe locaties aangewezen voor een Grand Prix</h3>
+					<p class="datum">23-11-2020 08:14</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_5c00ecedf8dae4f51bf2a037bdfac2cb850231a0.jpg">
+				<p>
+					<h3>Update | Privevliegtuig van Verstappen krijgt registratie van KLM DC-10</h3>
+					<p class="datum">23-11-2020 07:59</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_5619e5bd0c11bdd478236f61eab9cfa15c50d688.jpg">
+				<p>
+					<h3>"Het trieste is wat er gaat gebeuren met Perez"</h3>
+					<p class="datum">23-11-2020 07:41</p>
+					<button class="reaction"></button>
+				</p>
+			</article>
+			<article>
+				<img src="images/Artikelen/Klein/wc_cf6df115124a53226272ef6a184e923a81863b34.jpg">
+				<p>
+					<h3>Villeneuve steunt Hamilton: "Dat geeft credibility aan al zijn titels"</h3>
+					<p class="datum">23-11-2020 07:19</p>
 					<button class="reaction"></button>
 				</p>
 			</article>
 		</section>
 		</section>
-
 		<section>
 			<button>Laad meer nieuws</button>
 		</section>
