@@ -9,7 +9,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Navigatie
 1. https://www.bobdewebbouwer.com/een-navigatie-menu-maken-met-html-en-css/
 2. https://www.w3schools.com/howto/howto_css_subnav.asp
-3. -...-
+3. https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535
 
 
 
