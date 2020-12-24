@@ -8,6 +8,7 @@
 
 	<title>De snelste en meest complete F1 nieuwssite!</title>
 	<link href="styles/style.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin-ext">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -16,8 +17,8 @@
 	<header>
 		<nav>
 			<ul class="menu">
-				<li class="logo"><a href="#">Logo</a></li>
-				<li class="item"><a href="#">Mijn profiel</a></li>
+				<li class="logo_link"><a class="logo" href="index.html"> <img src="images/logo-color.svg"> </a></li>
+				<li class="profiel"><a href="#">Mijn profiel</a></li>
 				<li>
 					<form>
 						<fieldset>
@@ -26,7 +27,7 @@
 						</fieldset>
 					</form>
 				</li>
-				<li class="item"><a tabindex="0">Algmeneen nieuws</a>
+				<li class="item has-submenu"><a tabindex="0">Algmeneen nieuws</a>
 					<ul class="submenu">
 						<li class="subitem"><a href="#">Max Verstappen</a></li>
 						<li class="subitem"><a href="#">Trending</a></li>
@@ -46,20 +47,31 @@
 			</ul>
 
 
-			
+
 		</nav>
 	</header>
 	<main>
-		<section class="slider">
-			<a href="#"><img class=slide_img src="images/v2_featured_9c86696a6d0f886d853db965726f7a56a821fc5b.jpg" alt
-						title="'Boris Johnson mengt zich in de discussie of Hamilton geridderd moet worden'"></a>
-				<a href="#"><img class=slide_img src="images/v2_featured_a37131d8457369869fcdbee863f48e3de43726b2.jpg" alt
-							title="Horner:'Ik denk dat er bij Red Bull een andere sfeer hangt'"></a>
-				<a href="#"><img class=slide_img src="images/v2_featured_d2fbefbb9160c40b3a41c32b049e0016252b1f15.jpg" alt
-							title="'Twee alfamannetjes' zijn moeilijk bij Mercedes, maar Verstappen is geen optie"></a>
-				
-
-
+		<section class="slideshow">
+			<section class="slides">
+			<article class="slide" id="slide1">
+				<h2 class="slider_titels">'Boris Johnson mengt zich in de discussie of Hamilton geridderd moet worden'
+				</h2>
+			</article>
+			<article class="slide" id="slide2" >
+			<h2 class="slider_titels">Horner:'Ik denk dat er bij Red Bull een andere sfeer hangt'</h2></article>
+			<article class="slide" id="slide3" >
+			<h2 class="slider_titels">'Twee alfamannetjes' zijn mogelijk bij Mercedes, maar Verstappen is geen optie</h2>
+		</article>
+		</section>
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="icon-prev"></span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="icon-next"></span>
+		</a>
+	
+		
+	
 		</section>
 		<aside>
 			<header>
