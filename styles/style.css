@@ -230,7 +230,10 @@ main .content .main_content .news li .information .meta_wrapper {
 }
 
 
+.headline-carousel-container{
+  background: linear-gradient(25deg, #101c2d, #101c2d, 31%, transpartent), url(../images/)
 
+}
 
 
 
