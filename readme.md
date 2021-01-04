@@ -11,6 +11,8 @@ Navigatie
 2. https://www.w3schools.com/howto/howto_css_subnav.asp
 3. https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535
 
+Carousel
+1. https://www.w3schools.com/howto/howto_js_slideshow.asp
 Slider
 1. https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6
 
