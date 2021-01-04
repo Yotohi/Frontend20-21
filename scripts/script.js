@@ -1,27 +1,18 @@
-// JavaScript Document
 const toggle = document.querySelector(".toggle");
 const menu = document.querySelector(".menu");
- 
+const items = document.querySelectorAll(".item");
+
 /* Toggle mobile menu */
 function toggleMenu() {
-    if (menu.classList.contains("active")) {
-        menu.classList.remove("active");
-         
-        // adds the menu (hamburger) icon
-        toggle.querySelector("a").innerHTML = "<i class=’fas fa-bars’></i>";
-    } else {
-        menu.classList.add("active");
-         
-        // adds the close (x) icon
-        toggle.querySelector("a").innerHTML = "<i class=’fas fa-times’></i>";
-    }
+  if (menu.classList.contains("active")) {
+    menu.classList.remove("active");
+    toggle.querySelector("a").innerHTML = "<i class='fas fa-bars'></i>";
+  } else {
+    menu.classList.add("active");
+    toggle.querySelector("a").innerHTML = "<i class='fas fa-times'></i>";
+  }
 }
- 
-/* Event Listener */
-toggle.addEventListener("click", toggleMenu, false);
 
-const items = document.querySelectorAll(".item");
- 
 /* Activate Submenu */
 function toggleItem() {
   if (this.classList.contains("submenu-active")) {
@@ -33,27 +24,21 @@ function toggleItem() {
     this.classList.add("submenu-active");
   }
 }
- 
-/* Event Listeners */
-for (let item of items) {
-    if (item.querySelector(".submenu")) {
-      item.addEventListener("click", toggleItem, false);
-      item.addEventListener("keypress", toggleItem, false);
-    }   
-}
 
 /* Close Submenu From Anywhere */
 function closeSubmenu(e) {
-    let isClickInside = menu.contains(e.target);
-   
-    if (!isClickInside && menu.querySelector(".submenu-active")) {
-      menu.querySelector(".submenu-active").classList.remove("submenu-active");
-    }
+  let isClickInside = menu.contains(e.target);
+
+  if (!isClickInside && menu.querySelector(".submenu-active")) {
+    menu.querySelector(".submenu-active").classList.remove("submenu-active");
   }
-   
-  /* Event listener */
-  document.addEventListener("click", closeSubmenu, false);
-
-
-
-  
+}
+/* Event Listeners */
+toggle.addEventListener("click", toggleMenu, false);
+for (let item of items) {
+  if (item.querySelector(".submenu")) {
+    item.addEventListener("click", toggleItem, false);
+  }
+  item.addEventListener("keypress", toggleItem, false);
+}
+document.addEventListener("click", closeSubmenu, false);
