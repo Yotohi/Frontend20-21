@@ -10,28 +10,32 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 
 
-main{
-  margin-top: 60px;
+html{
+  padding: 0;
+  margin: 0;
 }
 
 body {
   display: block;
   margin: 0;
 }
-header{
+.navig{
   width: 100%;
   display: block;
   position: fixed;
+  margin-top:-.5em;
+  margin-bottom: 0.5em;
   padding-top: 0;
-
   background: #fdfdfd;
   
 }
 
+
 nav {
   width:100%;
   background: #fdfdfd;
-  padding: 0 15px;
+  padding-left: 15px;
+  z-index: 5;
 }
 a{
   color: rgba(16,28,45,.6);
@@ -247,6 +251,8 @@ article {
   height: auto;
 }
 
+
+
 article {
   display: flex;
   box-sizing: border-box;
@@ -284,31 +290,105 @@ h3 {
 
 /*slider*/
 
-
-
-#slide1 {
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-image: url("../images/v2_featured_9c86696a6d0f886d853db965726f7a56a821fc5b.jpg");
+.slideshow-container {
+padding-top: 50px;
+  max-width: 100%;
+  position: inline-block;
+  position: relative;
+  margin-bottom: 10px;
+  z-index: 0;
 }
 
-#slide2 {
-  height: 100%;
-  width: 100%;
-  background-image: url("../images/v2_featured_a37131d8457369869fcdbee863f48e3de43726b2.jpg");
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
 
-#slide3 {
-  height: 100%;
-  width: 100%;
-  background-image: url("../images/v2_featured_d2fbefbb9160c40b3a41c32b049e0016252b1f15.jpg");
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: 900;
+  color: #31353e;
+  background-color: #cbcdd0;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 10px 30px 0;
+  user-select: none;
 }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius:30px 0 0 10px;
+  
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #cbcdd0(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 3px 1px 3px 1px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
 
 /*artikelen*/
  .artikelen{
    padding: 16px 0;
  }
+ article img{
+  align-items: center;
+   margin-top: 15px;
+   height: 100%;
+ }
+.art-text{
+  padding: 10px;
+}
+ .meta_wrapper{
+  padding-right: 16px;
+ }
+ .datum{
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  letter-spacing: .2px;
+  line-height: 14px;
+  color: #9b9b9b;
+}
+
 .datum:before {
   display: inline-block;
   width: 20px;
@@ -319,6 +399,14 @@ h3 {
   background: url("../images/time_article_icon.svg");
   background-position: center;
   background-repeat: no-repeat;
+}
+.reaction{
+ 
+  float: right;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: .2px;
 }
 .reaction::before {
   display: inline-block;
@@ -334,6 +422,8 @@ h3 {
 }
 
 /*headline*/
+
+
 .gallery{
   position: absolute;
   left: 0;
@@ -370,10 +460,18 @@ h3 {
   opacity: .8;
 }
  #headline-carousel{
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-top: 10px;
    background:#101c2d ;
  }
- 
+ #headline-carousel li{
+text-decoration: none; 
+}
  .headline-carousel-item{
+  flex: 0 0 auto;
     width: 240px;
     text-decoration: none;
    padding-left: 32px;
@@ -383,7 +481,7 @@ h3 {
   width: 100%;
 }
 .img-slide{
-  width: 240px;
+  
   height: 134px;
   margin: 0 0 16px 0;
   border-bottom: 3px solid #d8d8d8;
@@ -483,7 +581,7 @@ footer {
   margin-bottom: 2em;
 }
 footer, li, a{
- color: rgba(255,255,255,.6);
+ color: #31353e;
 }
 
 footer h3{
@@ -512,7 +610,7 @@ footer .footernav ul li :before {
 }
 
 footer li, a {
-  color: rgba(255,255,255,.6);
+  color: #31353e;
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1em;
