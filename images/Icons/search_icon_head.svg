@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1600_home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1566.000000, -16.000000)">
+        <g id="Group-4" fill="#D0D4D8" fill-rule="nonzero">
+            <g id="Group-6">
+                <g id="server-view-1" transform="translate(1575.500000, 25.500000) scale(-1, 1) translate(-1575.500000, -25.500000) translate(1565.000000, 15.000000)">
+                    <g id="Filled_Icons" transform="translate(1.250000, 1.235294)">
+                        <g id="Group" transform="translate(0.000000, 0.000000)">
+                            <path d="M17.95,16.1253409 L13.3465523,11.4776293 C14.0894555,10.346834 14.5275415,8.99417385 14.5275415,7.5370225 C14.5275415,3.59069019 11.3475189,0.380090498 7.43877074,0.380090498 C3.53002256,0.380090498 0.35,3.59069019 0.35,7.5370225 C0.35,11.4833548 3.53002256,14.6939545 7.43877074,14.6939545 C8.88204447,14.6939545 10.2218221,14.2516561 11.3418479,13.5016096 L15.9452956,18.1493213 L17.95,16.1253409 Z M3.1855083,7.5370225 C3.1855083,5.16950939 5.09380538,3.2428633 7.43877074,3.2428633 C9.7837361,3.2428633 11.6920332,5.16950939 11.6920332,7.5370225 C11.6920332,9.9045356 9.7837361,11.8311817 7.43877074,11.8311817 C5.09380538,11.8311817 3.1855083,9.9045356 3.1855083,7.5370225 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
