@@ -15,6 +15,7 @@ main{
 }
 
 body {
+  display: block;
   margin: 0;
 }
 
@@ -359,8 +360,16 @@ border-radius: 12px 4px 12px 4px;
 border: 0;
 }
 
-
-
+/*Social*/
+.social-media-large{
+  width: 100%;
+  display: flex;
+}
+.social-media-large li{
+  width: 100%;
+  display: inline-block;
+  
+}
 
 /*footer */
 footer {
