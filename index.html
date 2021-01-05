@@ -9,7 +9,6 @@
 	<title>De snelste en meest complete F1 nieuwssite!</title>
 	<link href="styles/style.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-	<link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin-ext">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
@@ -53,7 +52,6 @@
 	</header>
 	<main>
 		<section class="slideshow-container">
-
 			<!-- Full-width images with number and caption text -->
 			<section class="mySlides fade">
 			  <img src="images/v2_featured_9c86696a6d0f886d853db965726f7a56a821fc5b.jpg" style="width:100%">
@@ -73,77 +71,23 @@
 			<!-- Next and previous buttons -->
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-		  </section>
+		
 		  
 		  <!-- The dots/circles -->
-		  <section style="text-align:center">
-			<span class="dot" onclick="currentSlide(1)"></span>
-			<span class="dot" onclick="currentSlide(2)"></span>
-			<span class="dot" onclick="currentSlide(3)"></span>
+		  <section class="dot-container" style="text-align:center">
+			<span class="dot1" onclick="currentSlide(1)"></span>
+			<span class="dot1" onclick="currentSlide(2)"></span>
+			<span class="dot1" onclick="currentSlide(3)"></span>
 		  </section>
-		<!--
-		<section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-			  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			</ol>
-			<section class="carousel-inner">
-			  <section class="carousel-item active">
-				<img class="d-block w-100" src="images/v2_featured_9c86696a6d0f886d853db965726f7a56a821fc5b.jpg" alt="First slide">
-				<h2 class="slider_titels">'Boris Johnson mengt zich in de discussie of Hamilton geridderd moet
-					worden'</h2>
-			  </section>
-			  <section class="carousel-item">
-				<img class="d-block w-100" src="images/v2_featured_a37131d8457369869fcdbee863f48e3de43726b2.jpg" alt="Second slide">
-				<h2 class="slider_titels">Horner:'Ik denk dat er bij Red Bull een andere sfeer hangt'</h2>
-			  </section>
-			  <section class="carousel-item">
-				<img class="d-block w-100" src="images/v2_featured_d2fbefbb9160c40b3a41c32b049e0016252b1f15.jpg" alt="Third slide">
-				<h2 class="slider_titels">'Twee alfamannetjes' zijn mogelijk bij Mercedes, maar Verstappen is geen
-					optie</h2>
-			  </section>
-			</section>
-			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			  <span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			  <span class="sr-only">Next</span>
-			</a>
 		</section>
-		-->
-		<!--
-		<section class="slider-container">
-			<ul class="slider">
-				<li>
-					<h2 class="slider_titels">'Boris Johnson mengt zich in de discussie of Hamilton geridderd moet
-						worden'</h2>
-				</li>
-				<li class="slide" id="slide2">
-					<h2 class="slider_titels">Horner:'Ik denk dat er bij Red Bull een andere sfeer hangt'</h2>
-				</li>
-				<li class="slide" id="slide3">
-					<h2 class="slider_titels">'Twee alfamannetjes' zijn mogelijk bij Mercedes, maar Verstappen is geen
-						optie</h2>
-				</li>
-			</ul>
-		</section>
-
-		</section>
-
--->
-		
-		
-		
-
-
 		<aside>
 			<section class="h-aside">
+				<header>
+					<span id="flag"></span>
 				<h1>GP Bahrein</h1>
-				<h2>27 - 29 november 2020 </h2>
+				<span id="date">27 - 29 november 2020 </span>
 				<a href="#"> Ga naar GP <span class="arrow"></span></a>
+			</header>
 			</section>
 
 			<p>Tijden zijn Europese/Amsterdam tijdzone</p>
@@ -387,7 +331,6 @@
 
 		</section>
 		<figure class="gall"> 
-			<img id="gall-img" src="images/large_a8eb859dc4a2446e0c188a5022b8a832b27ea161.jpg" alt="">
 			<section id="text-gal">
 				<span id="tag" >In beeld</span>
 				<h3>Het vergane circuit van Remis-Gueux</h3>
@@ -470,122 +413,91 @@
 	</main>
 	<footer>
 		<img class="footerimg" src="images/logo-color.svg" alt="logo-footer">
-		<section id="footernav">
-			<section>
+		<section class="footernav-container">
 			<h3>Teams</h3>
 			<ul class="footernav">
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/mercedes-amg-f1-team.html">Mercedes
-					AMG F1</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/ferrari.html">Scuderia Ferrari</a>
-				</li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/red-bull-racing.html">Red Bull
-					Racing</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/mclaren.html">McLaren</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/renault-f1-team.html">Renault F1
-					team</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/scuderia-alpha-tauri.html">Scuderia
-					AlphaTauri</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/Racing-point.html">Racing Point</a>
-				</li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/alfa-romeo-racing.html">Alfa Romeo
-					Racing</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/haas-f1.html">Haas F1</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-teams/williams.html">Williams</a></li>
+				<li> <a href="nl/f1-teams/mercedes-amg-f1-team.html">MercedesAMG F1</a></li>
+				<li><a href="nl/f1-teams/ferrari.html">Scuderia Ferrari</a></li>
+				<li><a href="nl/f1-teams/red-bull-racing.html">Red Bull Racing</a></li>
+				<li><a href="nl/f1-teams/mclaren.html">McLaren</a></li>
+				<li><a href="nl/f1-teams/renault-f1-team.html">Renault F1 team</a></li>
+				<li><a href="nl/f1-teams/scuderia-alpha-tauri.html">Scuderia AlphaTauri</a></li>
+				<li><a href="nl/f1-teams/Racing-point.html">Racing Point</a></li>
+				<li><a href="nl/f1-teams/alfa-romeo-racing.html">Alfa Romeo Racing</a></li>
+				<li><a href="nl/f1-teams/haas-f1.html">Haas F1</a></li>
+				<li><a href="nl/f1-teams/williams.html">Williams</a></li>
 			</ul>
-			</section>
 			<section>
 			<h3>Coureurs</h3>
-			<ul>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/lewis-hamilton.html">Lewis
-					Hamilton</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/valtteri-bottas.html">Valtteri
-					Bottas</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/charles-leclerc.html">Charles
-					Leclerc</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/sebastian-vettel.html">Sebastian
-					Vettel</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/max-verstappen.html">Max
-					Verstappen</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/alexander-albon.html">Alexander
-					Albon</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/carlos-sainz.html">Carlos Sainz</a>
-				</li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/lando-norris.html">Lando Norris</a>
-				</li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/daniel-ricciardo.html">Daniel
-					Ricciardo</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/esteban-ocon.html">Esteban Ocon</a>
-				</li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/pierre-gasly.html">Pierre Gasly</a>
-				</li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/daniil-kvyat.html">Daniil Kvyat</a>
-				</li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/sergio-perez.html">Sergio Perez</a>
-				</li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/lance-stroll.html">Lance Stroll</a>
-				</li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/kimi-raikkonen.html">Kimi
-					Räikkönen</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/antonio-giovinazzi.html">Antonio
-					Giovinazzi</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/kevin-magnussen.html">Kevin
-					Magnussen</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/romain-grosjean.html">Romain
-					Grosjean</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/george-russell.html">George
-					Russell</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/f1-coureurs/nicholas-latifi.html">Nicholas
-					Latifi</a></li>
+			<ul class="footernav">
+				<li> <a href="nl/f1-coureurs/lewis-hamilton.html">Lewis Hamilton</a></li>
+				<li><a href="nl/f1-coureurs/valtteri-bottas.html">Valtteri Bottas</a></li>
+				<li><a href="nl/f1-coureurs/charles-leclerc.html">Charles Leclerc</a></li>
+				<li><a href="nl/f1-coureurs/sebastian-vettel.html">Sebastian Vettel</a></li>
+				<li><a href="nl/f1-coureurs/max-verstappen.html">Max Verstappen</a></li>
+				<li><a href="nl/f1-coureurs/alexander-albon.html">Alexander Albon</a></li>
+				<li><a href="nl/f1-coureurs/carlos-sainz.html">Carlos Sainz</a></li>
+				<li> <a href="nl/f1-coureurs/lando-norris.html">Lando Norris</a></li>
+				<li><a href="nl/f1-coureurs/daniel-ricciardo.html">Daniel Ricciardo</a></li>
+				<li><a href="nl/f1-coureurs/esteban-ocon.html">Esteban Ocon</a></li>
+				<li><a href="nl/f1-coureurs/pierre-gasly.html">Pierre Gasly</a></li>
+				<li><a href="nl/f1-coureurs/daniil-kvyat.html">Daniil Kvyat</a></li>
+				<li><a href="nl/f1-coureurs/sergio-perez.html">Sergio Perez</a></li>
+				<li><a href="nl/f1-coureurs/lance-stroll.html">Lance Stroll</a></li>
+				<li><a href="nl/f1-coureurs/kimi-raikkonen.html">Kimi Räikkönen</a></li>
+				<li><a href="nl/f1-coureurs/antonio-giovinazzi.html">Antonio Giovinazzi</a></li>
+				<li><a href="nl/f1-coureurs/kevin-magnussen.html">Kevin Magnussen</a></li>
+				<li><a href="nl/f1-coureurs/romain-grosjean.html">Romain Grosjean</a></li>
+				<li><a href="nl/f1-coureurs/george-russell.html">George Russell</a></li>
+				<li><a href="nl/f1-coureurs/nicholas-latifi.html">Nicholas Latifi</a></li>
 			</ul>
 			</section>
 			<section>
 			<h3>Grand Prix</h3>
-			<ul class="two_col">
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/GP-Toscane-Ferrari-1000.html">GP Toscane</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/GP-70th-Anniversary-Formula-1.html">Formula 1 70th Anniversary GP </a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/eifel-gp.html">GP Eifel</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/portugal-gp.html">GP Portugal</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/emilia-romagna-gp.html">GP Emilia Romagna</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-sakhir.html">GP Sakhir</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/GP-turkije.html">GP Turkije</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/sakhir-grand-prix.html"></a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-australie.html">GP Australië</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-bahrein.html">GP Bahrein</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-vietnam.html">GP Vietnam</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-china.html">GP China</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-Nederland.html">GP Nederland</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-spanje.html">GP Spanje</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-monaco.html">GP Monaco</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-azerbeidzjan.html">GP Azerbeidzjan</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-canada.html">GP Canada</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-frankrijk.html">GP Frankrijk</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-oostenrijk.html">GP Oostenrijk</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-groot-brittannie.html">GP Groot-Brittannië</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-hongarije.html">GP Hongarije</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-belgie.html">GP België</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-italie.html">GP Italie</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-singapore.html">GP Singapore</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-japan.html">GP Japan</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/grandsprix/gp-abu-dhabi.html">GP Abu Dhabi</a></li>
+			<ul class="footernav">
+				<li> <a href="nl/grandsprix/GP-Toscane-Ferrari-1000.html">GP Toscane</a></li>
+				<li><a href="nl/grandsprix/GP-70th-Anniversary-Formula-1.html">Formula 1 70th Anniversary GP </a></li>
+				<li> <a href="nl/grandsprix/eifel-gp.html">GP Eifel</a></li>
+				<li><a href="nl/grandsprix/portugal-gp.html">GP Portugal</a></li>
+				<li><a href="nl/grandsprix/emilia-romagna-gp.html">GP Emilia Romagna</a></li>
+				<li><a href="nl/grandsprix/gp-sakhir.html">GP Sakhir</a></li>
+				<li><a href="nl/grandsprix/GP-turkije.html">GP Turkije</a></li>
+				<li><a href="nl/grandsprix/sakhir-grand-prix.html"></a></li>
+				<li><a href="nl/grandsprix/gp-australie.html">GP Australië</a></li>
+				<li><a href="nl/grandsprix/gp-bahrein.html">GP Bahrein</a></li>
+				<li><a href="nl/grandsprix/gp-vietnam.html">GP Vietnam</a></li>
+				<li><a href="nl/grandsprix/gp-china.html">GP China</a></li>
+				<li><a href="nl/grandsprix/gp-Nederland.html">GP Nederland</a></li>
+				<li><a href="nl/grandsprix/gp-spanje.html">GP Spanje</a></li>
+				<li><a href="nl/grandsprix/gp-monaco.html">GP Monaco</a></li>
+				<li><a href="nl/grandsprix/gp-azerbeidzjan.html">GP Azerbeidzjan</a></li>
+				<li><a href="nl/grandsprix/gp-canada.html">GP Canada</a></li>
+				<li><a href="nl/grandsprix/gp-frankrijk.html">GP Frankrijk</a></li>
+				<li><a href="nl/grandsprix/gp-oostenrijk.html">GP Oostenrijk</a></li>
+				<li><a href="nl/grandsprix/gp-groot-brittannie.html">GP Groot-Brittannië</a></li>
+				<li><a href="nl/grandsprix/gp-hongarije.html">GP Hongarije</a></li>
+				<li><a href="nl/grandsprix/gp-belgie.html">GP België</a></li>
+				<li><a href="nl/grandsprix/gp-italie.html">GP Italie</a></li>
+				<li><a href="nl/grandsprix/gp-singapore.html">GP Singapore</a></li>
+				<li><a href="nl/grandsprix/gp-japan.html">GP Japan</a></li>
+				<li><a href="nl/grandsprix/gp-abu-dhabi.html">GP Abu Dhabi</a></li>
 			</ul>
 			</section>
 			<section>
 			<h3>GPBlog</h3>
 			<ul>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/pagina/contact.html">Contact</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/pagina/over-ons.html">Over ons</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/pagina/adverteren.html">Adverteren</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/pagina/tip-de-redactie.html">Tip de redactie</a></li>
-				<li><img src=images/list_item_arrow_red.svg> <a href="nl/pagina/vacatures.html">Werken bij</a></li>
+				<li><a href="nl/pagina/contact.html">Contact</a></li>
+				<li><a href="nl/pagina/over-ons.html">Over ons</a></li>
+				<li><a href="nl/pagina/adverteren.html">Adverteren</a></li>
+				<li><a href="nl/pagina/tip-de-redactie.html">Tip de redactie</a></li>
+				<li><a href="nl/pagina/vacatures.html">Werken bij</a></li>
 			</ul>
 			</section>
 			<section>
 				<h3>Meer Nieuws</h3>
 				<ul>
-					<li><img src=images/list_item_arrow_red.svg> <a href="https://www.voetbalprimeur.nl/"
-						target="_blank">Het laatste Nederlandse voetbalnieuws</a></li>
-					<li><img src=images/list_item_arrow_red.svg> <a href="https://www.voetbalprimeur.be/"
-						target="_blank">Het laatste Belgische voetbalnieuws</a></li>
+					<li><a href="https://www.voetbalprimeur.nl/"\target="_blank">Het laatste Nederlandse voetbalnieuws</a></li>
+					<li><a href="https://www.voetbalprimeur.be/"target="_blank">Het laatste Belgische voetbalnieuws</a></li>
 				</ul>
 			</section>
 			<section>
