@@ -6,6 +6,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
+Website zelf
+https://www.gpblog.com/nl
 Navigatie
 1. https://www.bobdewebbouwer.com/een-navigatie-menu-maken-met-html-en-css/
 2. https://www.w3schools.com/howto/howto_css_subnav.asp
@@ -19,8 +21,7 @@ Slider
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
-
+Helaas kan ik op stage ook niet veel vragen omdat er extreme drukte heerst. En door Corona en omstandigheden is het lastig om met iemand naar mijn code te kijken. Ik vind het zeer interessant alleen heb het nooit echt goed en rustig uitgelegd gekregen. Daarnaast vind ik dan de mediaquerries nog vreselijk lastig. Zo spendeerde ik veel te veel tijd om uit te zoeken hoe een slider en hoe een carousel gemaakt moeten worden. Toen ik ze gevonden had vond ik het zeer lastig om deze uit te vogelen
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
@@ -29,14 +30,13 @@ Slider
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Jaloers op wat anders mensen kunnen maken. Ik merk dat ik er ectreem veel moeite mee heb om alles goed te krijgen. 
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
+Nog veel te doen. Nog bezig met structuur van HTML
 
 
 ## Voortgang 1 (week 3)
