@@ -25,8 +25,8 @@ Helaas kan ik op stage ook niet veel vragen omdat er extreme drukte heerst. En d
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
-
+<img scr="images/Hoofd.jpg">
+<img scr="images/Untitled.jpg>
 
 ## Voortgang 3 (week 6)
 
