@@ -288,7 +288,6 @@ padding-top: 50px;
   z-index: 0;
 }
 .slideshow-container::after{
-  content: "";
   content: '';
   position: absolute;
   top: 0;
